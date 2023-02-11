@@ -22,8 +22,8 @@ void test_case(int& tc) {
 	}
 	// mn should be larger than mx so that we could choose use it as well
 	// for example:
-	// sequence: 7 7 7 7 7 3 2
-	// midpoints: 7 7 7 7 5 3
+	// sequence: 7 7 7 7 7 3 2 (n = length)
+	// midpoints: 7 7 7 7 5 3 (n-1 = length)
 	// mn = 7 and mx = 5
 	// we needed 5 in order to make 7, 3, 2 into 2, 2, 3
 	// thus, the mn should be greater than 5 so that we could use it
