@@ -26,7 +26,7 @@ void test_case(int& tc) {
 	// midpoints: 7 7 7 7 5 3 (n-1 = length)
 	// mn = 7 and mx = 5
 	// we needed 5 in order to make 7, 3, 2 into 2, 2, 3
-	// thus, the mn should be greater than 5 so that we could use it
+	// thus, mn should be greater than 5 so that we could use 5 itself
 	cout << (mx <= mn ? mx : -1) << "\n";
 }
 
